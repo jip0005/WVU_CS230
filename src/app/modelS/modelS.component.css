@@ -1,0 +1,73 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    margin: 0;
+  }
+
+  .centered {
+      position: absolute;
+      top: 18%;
+      left: 70%;
+      font-size: xx-large;
+      transform: translate(-50%, -50%);
+  }
+
+  .bottom-centered {
+    position: absolute;
+    top: 40%;
+    left: 47.7%;
+    font-size: small;
+    transform: translate(-50%, -50%);
+    color: grey;
+  }
+
+  .bottom-centered-link {
+    position: absolute;
+    top: 40%;
+    left: 52.6%;
+    font-size: small;
+    text-decoration: underline;
+    transform: translate(-50%, -50%);
+  }
+
+  .nav-link{
+    color:grey;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container .order-button {
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 250px;
+  }
+
+  .container .inventory-button {
+    position: absolute;
+    top: 75%;
+    left: 81%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    color: #555;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 250px;
+  }
