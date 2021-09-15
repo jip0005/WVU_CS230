@@ -6,6 +6,7 @@ import { TopNavBarComponent } from './header/top-nav-bar.component';
 import { BottomNavBarComponent } from './footer/bottom-nav-bar.component';
 import { ModelSComponent } from './modelS/modelS.component.';
 import { ModelYComponent } from './modelY/modelY.component';
+import { LayoutMainComponent } from './layout/layout-main.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ModelYComponent } from './modelY/modelY.component';
     TopNavBarComponent,
     BottomNavBarComponent,
     ModelSComponent,
-    ModelYComponent
+    ModelYComponent,
+    LayoutMainComponent
   ],
   imports: [
     BrowserModule

@@ -3,6 +3,7 @@
     text-align: center;
     color: black;
     margin: 0;
+    padding: 0;
   }
 
   .centered {
@@ -15,18 +16,18 @@
 
   .bottom-centered {
     position: absolute;
-    top: 40%;
-    left: 47.7%;
-    font-size: small;
+    top: 42.5%;
+    left: 46.8%;
+    font-size: medium;
     transform: translate(-50%, -50%);
     color: grey;
   }
 
   .bottom-centered-link {
     position: absolute;
-    top: 40%;
-    left: 52.6%;
-    font-size: small;
+    top: 42.5%;
+    left: 53%;
+    font-size: medium;
     text-decoration: underline;
     transform: translate(-50%, -50%);
   }

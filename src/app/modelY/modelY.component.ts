@@ -9,5 +9,7 @@ import { Component } from "@angular/core";
 })
 
 export class ModelYComponent {
-
+    inventory:string = "Existing Inventory"
+    order:string = "Custom Order"
+    name:string = "Model Y"
 }
