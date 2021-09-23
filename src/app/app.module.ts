@@ -7,6 +7,20 @@ import { BottomNavBarComponent } from './footer/bottom-nav-bar.component';
 import { ModelSComponent } from './modelS/modelS.component.';
 import { ModelYComponent } from './modelY/modelY.component';
 import { LayoutMainComponent } from './layout/layout-main.component';
+import { modelSbuttonComponent } from './header/modelSbutton.component';
+import { modelYbuttonComponent } from './header/modelYbutton.component';
+import { model3buttonComponent } from './header/model3button.component';
+import { modelXbuttonComponent } from './header/modelXbutton.component';
+import { AppRoutingModule } from './app-routing.module';
+import { SolarRoofComponent } from './header/solarRoof.component';
+import { SolarPanelsComponent } from './header/solarPanels.component';
+import { modelSLayoutComponent } from './layout/modelSlayout.component';
+import { model3LayoutComponent } from './layout/model3layout.component';
+import { HomeComponent } from './layout/home.component';
+import { modelXLayoutComponent } from './layout/modelXlayout.component';
+import { modelYLayoutComponent } from './layout/modelYlayout.component';
+import { SolarRoofLayoutComponent } from './layout/solarRooflayout.component';
+import { SolarPanelsLayoutComponent } from './layout/solarPanelslayout.component';
 
 @NgModule({
   declarations: [
@@ -15,10 +29,24 @@ import { LayoutMainComponent } from './layout/layout-main.component';
     BottomNavBarComponent,
     ModelSComponent,
     ModelYComponent,
-    LayoutMainComponent
+    LayoutMainComponent,
+    modelSbuttonComponent,
+    model3buttonComponent,
+    modelXbuttonComponent,
+    modelYbuttonComponent,
+    SolarRoofComponent,
+    SolarPanelsComponent,
+    HomeComponent,
+    modelSLayoutComponent,
+    model3LayoutComponent,
+    modelXLayoutComponent,
+    modelYLayoutComponent,
+    SolarRoofLayoutComponent,
+    SolarPanelsLayoutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
