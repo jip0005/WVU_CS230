@@ -21,6 +21,7 @@ import { modelXLayoutComponent } from './layout/modelXlayout.component';
 import { modelYLayoutComponent } from './layout/modelYlayout.component';
 import { SolarRoofLayoutComponent } from './layout/solarRooflayout.component';
 import { SolarPanelsLayoutComponent } from './layout/solarPanelslayout.component';
+import { ProductComponent } from './body/product-comp.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { SolarPanelsLayoutComponent } from './layout/solarPanelslayout.component
     modelXLayoutComponent,
     modelYLayoutComponent,
     SolarRoofLayoutComponent,
-    SolarPanelsLayoutComponent
+    SolarPanelsLayoutComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
