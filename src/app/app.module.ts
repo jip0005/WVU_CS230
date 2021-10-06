@@ -22,6 +22,8 @@ import { modelYLayoutComponent } from './layout/modelYlayout.component';
 import { SolarRoofLayoutComponent } from './layout/solarRooflayout.component';
 import { SolarPanelsLayoutComponent } from './layout/solarPanelslayout.component';
 import { ProductComponent } from './body/product-comp.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './header/user-info.component';
 
 @NgModule({
   declarations: [
@@ -44,11 +46,13 @@ import { ProductComponent } from './body/product-comp.component';
     modelYLayoutComponent,
     SolarRoofLayoutComponent,
     SolarPanelsLayoutComponent,
-    ProductComponent
+    ProductComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
