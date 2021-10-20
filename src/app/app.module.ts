@@ -48,6 +48,7 @@ import { UserInfoComponent } from './header/user-info.component';
     SolarPanelsLayoutComponent,
     ProductComponent,
     UserInfoComponent
+
   ],
   imports: [
     BrowserModule,

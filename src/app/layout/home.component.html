@@ -4,14 +4,15 @@
             <app-top-nav-bar>Loading</app-top-nav-bar>
             <app-model-S>Loading</app-model-S>
             <app-model-Y>Loading</app-model-Y>
-            <div *ngFor="let product of products;">
-                <app-product-comp 
+            <div *ngIf="product != undefined;">
+                <app-product-comp
                 title={{product.title}}
                 text={{product.text}}
                 textLink={{product.textLink}}
                 buttonOne={{product.buttonOne}}
                 buttonTwo={{product.buttonTwo}}
-                imagePath={{product.imagePath}}>
+                imagePath={{product.imagePath}}
+                >
                 Loading</app-product-comp>
             </div>
             <app-bottom-nav-bar>Loading</app-bottom-nav-bar>
