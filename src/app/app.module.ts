@@ -24,6 +24,8 @@ import { SolarPanelsLayoutComponent } from './layout/solarPanelslayout.component
 import { ProductComponent } from './body/product-comp.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './header/user-info.component';
+import { EditProductComponent } from './body/edit-product.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -47,13 +49,15 @@ import { UserInfoComponent } from './header/user-info.component';
     SolarRoofLayoutComponent,
     SolarPanelsLayoutComponent,
     ProductComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    EditProductComponent
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

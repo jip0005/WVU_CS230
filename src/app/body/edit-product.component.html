@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="col-20">
+            <form #postForm="ngForm" (ngSubmit)="onUpdateProduct(postForm.value)">
+                <div class="input-group">
+                    <span class="input-group-text">title</span>
+                    <input type="text" aria-label="title" class="form-control" ngModel name="Title">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">text and textLink</span>
+                    <input type="text" aria-label="text" class="form-control" ngModel name="Text">
+                    <input type="text" aria-label="textLink" class="form-control" ngModel name="TextLink">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">buttonOne and buttonTwo</span>
+                    <input type="text" aria-label="buttonOne" class="form-control" ngModel name="ButtonOne">
+                    <input type="text" aria-label="buttonTwo" class="form-control" ngModel name="ButtonTwo">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">imagePath</span>
+                    <input type="text" aria-label="imagePath" class="form-control" ngModel name="ImagePath">
+                </div>
+                <button class="btn btn-dark" type="submit">
+                    Update Product
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

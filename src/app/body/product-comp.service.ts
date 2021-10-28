@@ -11,7 +11,14 @@ export class ProductService {
     }
 
     getProduct() {
-        return this.http.get<Product>(this.baseUrl + this.productsEndpoint)
+        console.log(this.baseUrl + this.productsEndpoint)
+        return this.http.get<Product[]>(this.baseUrl + this.productsEndpoint)
+    }
+
+    modifyProduct(data:Product) {
+        
+        return this.http.put(this.baseUrl + this.productsEndpoint, data);
+
     }
 
 }

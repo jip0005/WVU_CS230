@@ -5,7 +5,7 @@ import { UserInfo } from "./user-info.model";
 @Injectable({providedIn: 'root'})
 export class UserInfoService {
     private baseUrl:string = 'https://tesla-app-cdb45-default-rtdb.firebaseio.com/';
-    private myInfoEndpoint = 'my-info.json';
+    private myInfoEndpoint = 'userInfo.json';
     constructor(private http: HttpClient) {
 
     }

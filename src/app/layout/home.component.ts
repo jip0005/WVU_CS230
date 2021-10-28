@@ -8,20 +8,21 @@ import { Product } from "../body/product.model";
     templateUrl: "home.component.html"
 })
 export class HomeComponent implements OnInit {
-    product: Product | undefined;
+    products: Product[] = [];
 
     constructor(private productService:ProductService) {
     
     }
+
     ngOnInit(): void {
         this.showProduct();
     }
 
     showProduct() {
-        this.productService.getProduct().subscribe((data: Product) => {
-            for(var item in data) {
-                console.log(data);
-                this.product = data;
+        this.productService.getProduct().subscribe((data: Product[]) => {
+            for(var product of data) {
+                console.log(product);
+                this.products.push(product);
             }
         })
     }
