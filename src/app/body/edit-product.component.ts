@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { DatabaseService } from "./database.service";
 import { ProductService } from "./product-comp.service";
 import { Product } from "./product.model";
 
@@ -7,8 +8,8 @@ import { Product } from "./product.model";
     templateUrl: 'edit-product.component.html'
 })
 export class EditProductComponent {
-    constructor(public productService: ProductService) {
-
+    constructor(public productService: ProductService, private dbService:DatabaseService) {
+        dbService.showData();
     }
 
     onUpdateProduct(data:Product) {

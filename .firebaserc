@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tesla-app-cdb45": {
+      "hosting": {
+        "tesla": [
+          "tesla-app-cdb45"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tesla-app-cdb45"
+  }
+}
