@@ -7,10 +7,12 @@ import { modelXLayoutComponent } from './layout/modelXlayout.component';
 import { modelYLayoutComponent } from './layout/modelYlayout.component';
 import { SolarRoofLayoutComponent } from './layout/solarRooflayout.component';
 import { SolarPanelsLayoutComponent } from './layout/solarPanelslayout.component';
+import { AuthComponent } from './auth/auth.component';
 
 const routes: Routes = [
 
 { path: 'home', component: HomeComponent },
+{ path: 'auth', component: AuthComponent},
 { path: 'modelSlayout', component: modelSLayoutComponent},
 { path: 'model3layout', component: model3LayoutComponent},
 { path: 'modelXlayout', component: modelXLayoutComponent},
